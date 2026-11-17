@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eyuel's personal portfolio — web development, projects and skills.">
+  <title>Eyuel | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">eyuel<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & COLLABORATION</p>
+        <h1>Building thoughtful<br>digital <span>experiences.</span></h1>
+        <p class="hero-description">Hi, I'm <strong>Eyuel</strong> — an aspiring web developer who enjoys turning ideas into clean, useful and responsive websites.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span>↗</span></a><a class="text-link" href="#about">More about me <span>↓</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Curious mind. Creative process. Continuous growth.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame"><img src="assets/profile.jpg" alt="Portrait of Eyuel standing near a fountain"></div>
+        <div class="photo-caption"><span class="caption-mark">✳</span><span>DESIGNING & DEVELOPING<br>ONE IDEA AT A TIME</span></div>
+        <div class="decor decor-one"></div><div class="decor decor-two"></div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow">01 / ABOUT</p><h2>A little about<br><span>what I do.</span></h2></div>
+        <div class="about-text"><p class="large-copy">I’m learning how to build for the web, combining structure, visual design and interaction to make websites that feel clear and easy to use.</p><p>I enjoy exploring front-end development, improving my skills through practical projects, and learning something new with every build. This portfolio is a place to share that journey.</p><a class="under-link" href="#contact">Have a project in mind? <span>↗</span></a></div>
+      </div>
+    </section>
+    <section class="skills section container" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & <span>tools.</span></h2></div><p class="section-intro">The technologies I'm currently learning and using to bring ideas to life.</p></div>
+      <div class="skill-list">
+        <article class="skill-item"><span class="skill-number">01</span><div><h3>HTML5</h3><p>Semantic structure & accessible content</p></div><span class="skill-type">STRUCTURE</span></article>
+        <article class="skill-item"><span class="skill-number">02</span><div><h3>CSS3</h3><p>Responsive layouts, styling & motion</p></div><span class="skill-type">DESIGN</span></article>
+        <article class="skill-item"><span class="skill-number">03</span><div><h3>JavaScript</h3><p>Interactivity & dynamic experiences</p></div><span class="skill-type">INTERACTION</span></article>
+        <article class="skill-item"><span class="skill-number">04</span><div><h3>Git & GitHub</h3><p>Version control and project collaboration</p></div><span class="skill-type">WORKFLOW</span></article>
+      </div>
+    </section>
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div><p class="section-intro">A growing collection of practical work and experiments.</p></div>
+        <article class="project-card">
+          <div class="project-visual"><div class="browser-bar"><i></i><i></i><i></i><span>family-day-website</span></div><div class="project-preview"><span class="preview-kicker">CELEBRATE TOGETHER</span><strong>Family<br>Day</strong><span class="preview-rule"></span><small>ONE FAMILY · ONE FAITH · ENDLESS LOVE</small></div></div>
+          <div class="project-info"><p class="eyebrow">FEATURED PROJECT / 01</p><h3>Family Day Website</h3><p>A church event website concept featuring a countdown, event information and a responsive layout.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="under-link" href="https://github.com/Eyuel-nani/family-day-website" target="_blank" rel="noreferrer">View project on GitHub <span>↗</span></a></div>
+        </article>
+        <p class="coming-soon">MORE PROJECTS <span>—</span> IN PROGRESS</p>
+      </div>
+    </section>
+    <section class="contact section container" id="contact">
+      <p class="eyebrow">04 / GET IN TOUCH</p><h2>Let's make something<br><span>meaningful.</span></h2>
+      <p class="contact-copy">I'm always interested in learning, sharing ideas and connecting with people who enjoy building things for the web.</p>
+      <a class="button button-dark" href="https://github.com/Eyuel-nani" target="_blank" rel="noreferrer">Find me on GitHub <span>↗</span></a>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">eyuel<span>.</span></a><p>Designed & built with curiosity.</p><a href="#home">BACK TO TOP ↑</a><span>© <span id="year"></span> EYUEL</span></div></footer>
+</body>
+</html>
